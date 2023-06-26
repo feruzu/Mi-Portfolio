@@ -32,6 +32,12 @@ a.nav-link {
     padding: 0;
 }
 
+a.nav-link:active,
+a.nav-link:focus,
+a.nav-link:hover {
+    color: #DD868C!important;
+}
+
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0!important;
     padding-left: 0!important;
@@ -39,10 +45,6 @@ a.nav-link {
 
 div.me-auto.navbar-nav {
     align-items: start;
-}
-
-a.nav-link:hover {   
-    border-bottom: 3px solid #EFC4B9;
 }
 
 button.navbar-toggler {
@@ -53,7 +55,7 @@ button.navbar-toggler:active,
 button.navbar-toggler:focus {
     outline: none;
     box-shadow: none;
-    color: #242223;
+    color: #EFC4B9;
 }
 
 span.navbar-toggler-icon {

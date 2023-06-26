@@ -1,0 +1,57 @@
+section.sobre-mi {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 90rem;
+    width: 80%;
+    height: 80vh;
+}
+
+section .titulo-sobre-mi {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.titulo-sobre-mi h2{
+    -webkit-text-stroke: 3px #dd868c9a;
+    color: transparent; 
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+section div.cards {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+section div.card {
+    display: inline-flex;
+    margin: 2rem;
+}
+
+.card-titulo {
+    font-size: 3rem;
+    font-weight: 600;
+    color:  #DD868C;
+    margin-top: 3rem;
+}
+
+p.card-text {
+    font-size: 2rem;
+    margin-top: 5rem;
+}
+
+div.card-body {
+    border-radius: 2rem;
+    padding: 2rem;
+    background: linear-gradient(145deg, #dadad8, #ffffff);
+    box-shadow:  20px 20px 60px #cececc,
+             -20px -20px 60px #ffffff;
+}
+
+div.card {
+    border-radius: 2rem;
+}
