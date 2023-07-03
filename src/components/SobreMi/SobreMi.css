@@ -3,9 +3,11 @@ section.sobre-mi {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 90rem;
+    margin-top: 70rem;
     width: 80%;
     height: 80vh;
+    padding-top: 20rem;
+    padding-bottom: 60rem;
 }
 
 section .titulo-sobre-mi {
@@ -54,4 +56,18 @@ div.card-body {
 
 div.card {
     border-radius: 2rem;
+}
+
+/* Responsive */
+
+@media (max-width: 991px) { 
+    section div.cards {
+        display: block;
+        margin-top: 2rem;
+    }
+
+    section div.card {
+        margin: 5rem;
+    }
+
 }
