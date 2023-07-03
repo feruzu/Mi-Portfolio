@@ -1,0 +1,112 @@
+section.proyectos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 230rem;
+    width: 80%;
+    height: 80vh;
+    padding-bottom: 75rem;
+}
+
+section .titulo-proyectos {
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 15rem;
+}
+
+.titulo-proyectos h2{
+    -webkit-text-stroke: 3px #dd868c9a;
+    color: transparent; 
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+#proyectos div.card-body {
+    padding: 1rem;
+}
+
+#proyectos .cards img {
+    width: 310px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#proyectos .card-titulo {
+    font-size: 20px;
+    color: #353535;
+    margin: 10px 10px 2px 10px;
+    margin-top: 1rem;
+}
+
+#proyectos div.card {
+    display: inline-flex;
+    margin: 3rem;
+}
+
+#proyectos div.card-body:hover img {
+    filter: brightness(30%);
+}
+
+#proyectos div.card-body:hover {
+    background-color:rgb(67, 67, 67);
+    
+}
+
+#proyectos div.card-body:hover div.enlaces {
+    display: flex;
+}
+
+div.enlaces {
+    display: flex;
+    position: absolute;
+    width: 10rem;
+    margin-top: 5.5rem;
+    margin-left: 6.5rem;
+    z-index: 9;
+    display: none;
+}
+
+.enlaces a{
+    font-size: 18px;
+    margin: 1rem; 
+    text-decoration: none;
+    padding: 1px 20px;
+    border: 1px solid #DD868C;
+    color: #DD868C;
+    border-radius: 2rem;
+}
+
+.enlaces a:hover {
+    background-color: #DD868C;
+    color:white;
+    transition: .3s;
+}
+
+/* Responsive */
+
+@media (max-width: 991px) { 
+    section.proyectos {
+        margin-top: 350rem;
+        padding-bottom: 75rem;
+    }
+    
+    section .titulo-proyectos {
+        margin-bottom: 5rem;
+        margin-top: 15rem;
+    }
+
+}
+
+@media (max-width: 740px) { 
+    section.proyectos {
+        margin-top: 470rem;
+        padding-bottom: 75rem;
+    }
+    
+    section .titulo-proyectos {
+        margin-bottom: 5rem;
+        margin-top: 15rem;
+    }
+
+}
