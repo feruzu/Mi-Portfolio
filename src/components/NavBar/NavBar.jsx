@@ -13,7 +13,7 @@ export const NavBar = () => {
             <Nav className="me-auto">
               <Nav.Link href="#nav-bar">Inicio</Nav.Link>
               <Nav.Link href="#sobre-mi">Sobre mi</Nav.Link>
-              <Nav.Link href="#link">Skills</Nav.Link>
+              <Nav.Link href="#skills">Skills</Nav.Link>
               <Nav.Link href="#link">Proyectos</Nav.Link>
               <Nav.Link href="#link">Contacto</Nav.Link>
             </Nav>
