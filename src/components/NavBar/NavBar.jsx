@@ -14,8 +14,8 @@ export const NavBar = () => {
               <Nav.Link href="#nav-bar">Inicio</Nav.Link>
               <Nav.Link href="#sobre-mi">Sobre mi</Nav.Link>
               <Nav.Link href="#skills">Skills</Nav.Link>
-              <Nav.Link href="#link">Proyectos</Nav.Link>
-              <Nav.Link href="#link">Contacto</Nav.Link>
+              <Nav.Link href="#proyectos">Proyectos</Nav.Link>
+              <Nav.Link href="#contacto">Contacto</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
