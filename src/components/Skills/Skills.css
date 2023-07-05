@@ -6,7 +6,7 @@ section.skills {
     margin-top: 160rem;
     width: 80%;
     height: 80vh;
-    padding-top: 25rem;
+    padding-top: 20rem;
     padding-bottom: 75rem;
 }
 
@@ -49,6 +49,16 @@ section .titulo-skills {
 @media (max-width: 991px) { 
     section.skills {
         margin-top: 207rem;
+    }
+    
+}
+
+
+
+@media (max-width: 420px) { 
+
+    section.skills {
+        padding-top: 70rem;
     }
     
 }

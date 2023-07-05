@@ -71,3 +71,33 @@ div.card {
     }
 
 }
+
+@media (max-width: 740px) { 
+    
+    #sobre-mi div.card-body, #sobre-mi div.card{
+        width: 33rem!important;
+        height: 40rem!important;
+    }
+
+    #sobre-mi p.card-text {
+        font-size: 16.5px;
+    }
+
+    #sobre-mi div.card {
+        margin: 5rem 0rem;
+    }
+}
+
+
+
+@media (max-width: 420px) { 
+    #sobre-mi div.card-body, #sobre-mi div.card{
+        width: 30rem!important;
+        height: 50rem!important;
+    }
+    
+    section.sobre-mi {
+        padding-top: 40rem;
+    }
+    
+}

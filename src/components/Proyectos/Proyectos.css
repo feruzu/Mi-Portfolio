@@ -12,7 +12,7 @@ section.proyectos {
 section .titulo-proyectos {
     text-align: center;
     margin-bottom: 5rem;
-    margin-top: 15rem;
+    margin-top: 20rem;
 }
 
 .titulo-proyectos h2{
@@ -109,4 +109,27 @@ div.enlaces {
         margin-top: 15rem;
     }
 
+}
+
+@media (max-width: 420px) { 
+
+    section.proyectos {
+        padding-top: 30rem;
+    }
+
+    #proyectos div.card {
+        margin: 5rem 0rem;
+        width: 30rem!important;
+    }
+
+    #proyectos div.card img {
+        width: 279px!important;
+    }
+
+    div.enlaces {
+        margin-top: 5rem;
+        margin-left: 4rem;
+    }
+    
+    
 }
