@@ -1,8 +1,6 @@
 import './SobreMi.css';
 import Card from 'react-bootstrap/Card';
 
-
-
 export const SobreMi = () => {
     return (
       <section className="sobre-mi" id="sobre-mi">
@@ -31,8 +29,6 @@ export const SobreMi = () => {
         </Card>
         </div>
 
-        
-      
       </section>
     );
 }

@@ -6,7 +6,7 @@ export const Inicio = () => {
 
           <section className='inicio' id='inicio'>
 
-          <div>
+          <div id='portada'>
             <h2 className="hola">Hola<br/>Soy Fernanda,</h2>
             <h1 className="titulo">Jr. Front-End Developer.</h1>
           </div>
