@@ -3,9 +3,13 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
+
 
 export const Contacto = () => {
   const form = useRef();
+
+  let formulario = document.querySelector('.formulario');
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -13,8 +17,19 @@ export const Contacto = () => {
     emailjs.sendForm(import.meta.env.VITE_YOUR_SERVICE_ID, import.meta.env.VITE_YOUR_TEMPLATE_ID, form.current, import.meta.env.VITE_YOUR_PUBLIC_KEY)
       .then((result) => {
           console.log(result.text);
+          Swal.fire(
+            'Enviado',
+            'Gracias por contactarme!',
+            'success'
+          );
+          formulario.reset();
+          
       }, (error) => {
           console.log(error.text);
+          Swal.fire(
+            'Intentalo de nuevo',
+            'Error'
+          )
       });
     };
 
@@ -34,7 +49,7 @@ export const Contacto = () => {
           <Form.Control type="email" name="user_email" required />
         </Form.Group>
         <Form.Group className="mb-3" >
-          <Form.Label>Texto</Form.Label>
+          <Form.Label>Mensaje</Form.Label>
           <Form.Control as="textarea" rows={3} name="message" required />
         </Form.Group>
 

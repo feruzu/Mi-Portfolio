@@ -148,6 +148,7 @@ box-shadow:  5px 5px 2px #e1e1df,
     section.contacto {
         margin-top: 670rem;
     }
+
 }
 
 @media (max-width: 420px) { 
@@ -156,4 +157,17 @@ box-shadow:  5px 5px 2px #e1e1df,
         padding-top: 70rem;
     }
     
+}
+
+/* Alert */
+
+div.swal2-popup.swal2-modal.swal2-icon-success.swal2-show {
+    font-size: 1.6rem;
+    border-radius: 5rem;
+}
+
+div.swal2-popup.swal2-modal.swal2-icon-success.swal2-show button {
+    background-color: #DD868C;
+    padding: 1rem 5rem;
+    border-radius: 2rem;
 }
