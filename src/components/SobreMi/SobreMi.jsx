@@ -6,9 +6,13 @@ export const SobreMi = () => {
       <section className="sobre-mi" id="sobre-mi">
         
         <div className="titulo-sobre-mi">
-          <h2>SOBRE MI</h2>
+          <h2>SOBRE MI</h2>   
         </div>
 
+        <div className='cv'>
+        <a id='cv' href='/docs/CV.pdf' download>CV</a>
+        </div>
+        
         <div className='cards'>
         <Card style={{ width: '40rem', height: '40rem', border: 'none'  }}>
         <Card.Body>
