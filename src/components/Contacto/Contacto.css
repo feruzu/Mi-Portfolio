@@ -154,7 +154,8 @@ box-shadow:  5px 5px 2px #e1e1df,
 @media (max-width: 420px) { 
 
     section.contacto {
-        padding-top: 70rem;
+        top: 100%;
+        padding-top: 15rem;
     }
     
 }

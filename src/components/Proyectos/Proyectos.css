@@ -114,7 +114,7 @@ div.enlaces {
 @media (max-width: 420px) { 
 
     section.proyectos {
-        padding-top: 30rem;
+        top: 85%;
     }
 
     #proyectos div.card {
@@ -133,3 +133,4 @@ div.enlaces {
     
     
 }
+

@@ -58,7 +58,9 @@ section .titulo-skills {
 @media (max-width: 420px) { 
 
     section.skills {
-        padding-top: 70rem;
+        top: 100%;
+        padding-top: 15rem;
     }
+
     
 }

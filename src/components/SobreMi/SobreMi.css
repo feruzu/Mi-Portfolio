@@ -189,9 +189,11 @@ a#cv:hover {
         width: 30rem!important;
         height: 50rem!important;
     }
-    
+
     section.sobre-mi {
-        padding-top: 40rem;
+        top: 75%;
+        padding-top: 10rem;
     }
+    
     
 }
