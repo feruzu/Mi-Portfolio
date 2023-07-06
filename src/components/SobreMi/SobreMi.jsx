@@ -10,7 +10,7 @@ export const SobreMi = () => {
         </div>
 
         <div className='cv'>
-        <a id='cv' href='/docs/CV.pdf' download>CV</a>
+        <a id='cv' href='/docs/CV.pdf' download="cv">CV</a>
         </div>
         
         <div className='cards'>
