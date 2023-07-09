@@ -18,6 +18,7 @@
     white-space: nowrap;
     border-right: 4px solid #EFC4B9;
     width: 21ch;
+    animation-direction:alternate-reverse;
     animation: typing 5s infinite steps(21), blink infinite, alternate .5s infinite step-end alternate;
     animation-direction: alternate-reverse;
     overflow:hidden;
