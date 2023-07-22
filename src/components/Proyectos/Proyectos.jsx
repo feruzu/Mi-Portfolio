@@ -43,15 +43,14 @@ export const Proyectos = () => {
         <Card.Title className='card-titulo'>NOTAS</Card.Title>
         </Card.Body>
         </Card>
-
-        <Card style={{ width: '35rem', height: '20rem', border: 'none'  }}>
+        <Card style={{ width: '35rem', height: '20rem', border: 'none' }}>
         <Card.Body>
         <div className='enlaces'>
-        <a href='https://reproductor-arian-grande.netlify.app' target="_blank">Web</a>
-        <a href='https://github.com/feruzu/Reproductor-de-musica' target="_blank">GitHub</a>
+        <a href='https://rick-and-morty-apirest.netlify.app/' target="_blank">Web</a>
+        <a href='https://github.com/feruzu/Rick-and-Morty' target="_blank">GitHub</a>
         </div>
-        <img src="\gif\Reproductor.gif" className="card-img-top" alt="reproductor"></img>
-        <Card.Title className='card-titulo'>REPRODUCTOR</Card.Title>
+        <img src="\gif\Rick-and-Morty.gif" className="card-img-top" alt="rick-and-morty"></img>
+        <Card.Title className='card-titulo'>RICK AND MORTY</Card.Title>
         </Card.Body>
         </Card>
         </div>
@@ -68,6 +67,19 @@ export const Proyectos = () => {
         </Card.Body>
         </Card>
 
+        <Card style={{ width: '35rem', height: '20rem', border: 'none'  }}>
+        <Card.Body>
+        <div className='enlaces'>
+        <a href='https://reproductor-arian-grande.netlify.app' target="_blank">Web</a>
+        <a href='https://github.com/feruzu/Reproductor-de-musica' target="_blank">GitHub</a>
+        </div>
+        <img src="\gif\Reproductor.gif" className="card-img-top" alt="reproductor"></img>
+        <Card.Title className='card-titulo'>REPRODUCTOR</Card.Title>
+        </Card.Body>
+        </Card>
+        </div>
+
+        <div className='cards'>
         <Card style={{ width: '35rem', height: '20rem', border: 'none' }}>
         <Card.Body>
         <div className='enlaces'>
@@ -78,7 +90,20 @@ export const Proyectos = () => {
         <Card.Title className='card-titulo'>CARGANDO</Card.Title>
         </Card.Body>
         </Card>
+
+        <Card style={{ width: '35rem', height: '20rem', border: 'none' }}>
+        <Card.Body>
+        <div className='enlaces'>
+        <a href='https://menu-minimalista.netlify.app/' target="_blank">Web</a>
+        <a href='https://github.com/feruzu/Menu-UX-UI' target="_blank">GitHub</a>
         </div>
+        <img src="\gif\Menú-minimalista.gif" className="card-img-top" alt="menú"></img>
+        <Card.Title className='card-titulo'>MENÚ</Card.Title>
+        </Card.Body>
+        </Card>
+        </div>
+
+        
             
         </section>
     )
