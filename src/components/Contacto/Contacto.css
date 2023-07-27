@@ -3,7 +3,7 @@ section.contacto {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 380rem;
+    margin-top: 435rem;
     width: 80%;
     height: 80vh;
     padding-bottom: 75rem;
@@ -134,7 +134,7 @@ box-shadow:  5px 5px 2px #e1e1df,
 
 @media (max-width: 991px) { 
     section.contacto {
-        margin-top: 600rem;
+        margin-top: 705rem;
     }
 
     .formulario {
@@ -146,7 +146,7 @@ box-shadow:  5px 5px 2px #e1e1df,
 @media (max-width: 740px) { 
     
     section.contacto {
-        margin-top: 720rem;
+        margin-top: 765rem;
     }
 
 }
@@ -155,7 +155,7 @@ box-shadow:  5px 5px 2px #e1e1df,
 
     section.contacto {
         top: 100%;
-        padding-top: 40rem;
+        padding-top: 60rem;
     }
     
 }

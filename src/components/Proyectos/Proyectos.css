@@ -42,6 +42,7 @@ section .titulo-proyectos {
 #proyectos div.card {
     display: inline-flex;
     margin: 3rem;
+    margin-top: 15rem;
 }
 
 #proyectos div.card-body:hover img {
@@ -83,6 +84,20 @@ div.enlaces {
     transition: .3s;
 }
 
+
+img#html.card-img-top, img#css.card-img-top, img#javascript.card-img-top, img#react.card-img-top {
+    width: 35px;
+    margin-top: -50px;
+}
+
+img#bootstrap.card-img-top {
+    width: 28px;
+    margin-left: 5px;
+    margin-top: -50px;
+}
+
+
+
 /* Responsive */
 
 @media (max-width: 991px) { 
@@ -100,7 +115,7 @@ div.enlaces {
 
 @media (max-width: 740px) { 
     section.proyectos {
-        margin-top: 470rem;
+        margin-top: 490rem;
         padding-bottom: 75rem;
     }
     
@@ -108,21 +123,23 @@ div.enlaces {
         margin-bottom: 5rem;
         margin-top: 15rem;
     }
+    
 
 }
 
 @media (max-width: 420px) { 
 
     section.proyectos {
-        top: 85%;
+        top: 70%;
     }
 
     #proyectos div.card {
         margin: 5rem 0rem;
         width: 30rem!important;
+        margin-top: 10rem;
     }
 
-    #proyectos div.card img {
+    #proyectos div.card img#proyecto {
         width: 279px!important;
     }
 
@@ -130,6 +147,18 @@ div.enlaces {
         margin-top: 5rem;
         margin-left: 4rem;
     }
+
+    img#html.card-img-top, img#css.card-img-top, img#javascript.card-img-top, img#react.card-img-top {
+        width: 50px!important;
+        margin-top: -50px;
+    }
+    
+    img#bootstrap.card-img-top {
+        width: 40px;
+        margin-left: 5px;
+        margin-top: -50px;
+    }
+    
     
     
 }
