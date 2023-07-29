@@ -15,9 +15,9 @@ section .titulo-proyectos {
     margin-top: 20rem;
 }
 
-.titulo-proyectos h2{
+.titulo-proyectos h2 {
     -webkit-text-stroke: 3px #dd868c9a;
-    color: transparent; 
+    color: transparent;
     font-size: 5rem;
     font-weight: 600;
 }
@@ -50,8 +50,8 @@ section .titulo-proyectos {
 }
 
 #proyectos div.card-body:hover {
-    background-color:rgb(67, 67, 67);
-    
+    background-color: rgb(67, 67, 67);
+
 }
 
 #proyectos div.card-body:hover div.enlaces {
@@ -68,9 +68,9 @@ div.enlaces {
     display: none;
 }
 
-.enlaces a{
+.enlaces a {
     font-size: 18px;
-    margin: 1rem; 
+    margin: 1rem;
     text-decoration: none;
     padding: 1px 20px;
     border: 1px solid #DD868C;
@@ -80,12 +80,15 @@ div.enlaces {
 
 .enlaces a:hover {
     background-color: #DD868C;
-    color:white;
+    color: white;
     transition: .3s;
 }
 
 
-img#html.card-img-top, img#css.card-img-top, img#javascript.card-img-top, img#react.card-img-top {
+img#html.card-img-top,
+img#css.card-img-top,
+img#javascript.card-img-top,
+img#react.card-img-top {
     width: 35px;
     margin-top: -50px;
 }
@@ -100,12 +103,12 @@ img#bootstrap.card-img-top {
 
 /* Responsive */
 
-@media (max-width: 991px) { 
+@media (max-width: 991px) {
     section.proyectos {
         margin-top: 350rem;
         padding-bottom: 75rem;
     }
-    
+
     section .titulo-proyectos {
         margin-bottom: 5rem;
         margin-top: 15rem;
@@ -113,21 +116,21 @@ img#bootstrap.card-img-top {
 
 }
 
-@media (max-width: 740px) { 
+@media (max-width: 740px) {
     section.proyectos {
         margin-top: 490rem;
         padding-bottom: 75rem;
     }
-    
+
     section .titulo-proyectos {
         margin-bottom: 5rem;
         margin-top: 15rem;
     }
-    
+
 
 }
 
-@media (max-width: 420px) { 
+@media (max-width: 420px) {
 
     section.proyectos {
         top: 70%;
@@ -135,12 +138,12 @@ img#bootstrap.card-img-top {
 
     #proyectos div.card {
         margin: 5rem 0rem;
-        width: 30rem!important;
+        width: 30rem !important;
         margin-top: 10rem;
     }
 
     #proyectos div.card img#proyecto {
-        width: 279px!important;
+        width: 279px !important;
     }
 
     div.enlaces {
@@ -148,18 +151,17 @@ img#bootstrap.card-img-top {
         margin-left: 4rem;
     }
 
-    img#html.card-img-top, img#css.card-img-top, img#javascript.card-img-top, img#react.card-img-top {
-        width: 50px!important;
+    img#html.card-img-top,
+    img#css.card-img-top,
+    img#javascript.card-img-top,
+    img#react.card-img-top {
+        width: 50px !important;
         margin-top: -50px;
     }
-    
+
     img#bootstrap.card-img-top {
         width: 40px;
         margin-left: 5px;
         margin-top: -50px;
     }
-    
-    
-    
 }
-

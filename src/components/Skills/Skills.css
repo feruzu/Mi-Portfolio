@@ -15,9 +15,9 @@ section .titulo-skills {
     margin-bottom: 5rem;
 }
 
-.titulo-skills h2{
+.titulo-skills h2 {
     -webkit-text-stroke: 3px #dd868c9a;
-    color: transparent; 
+    color: transparent;
     font-size: 5rem;
     font-weight: 600;
 }
@@ -33,10 +33,10 @@ section .titulo-skills {
 
 #skills div.card-body:hover {
     background: linear-gradient(145deg, #ffffff, #dadad8);
-    box-shadow:  20px 20px 60px #cececc,
-             -20px -20px 60px #ffffff,
-              5px 10px 15px 0px #dd868c;
-              transition: .4s;
+    box-shadow: 20px 20px 60px #cececc,
+        -20px -20px 60px #ffffff,
+        5px 10px 15px 0px #dd868c;
+    transition: .4s;
 }
 
 #skills div.card-body:hover img {
@@ -46,21 +46,21 @@ section .titulo-skills {
 
 /* Responsive */
 
-@media (max-width: 991px) { 
+@media (max-width: 991px) {
     section.skills {
         margin-top: 207rem;
     }
-    
+
 }
 
 
 
-@media (max-width: 420px) { 
+@media (max-width: 420px) {
 
     section.skills {
         top: 100%;
         padding-top: 15rem;
     }
 
-    
+
 }

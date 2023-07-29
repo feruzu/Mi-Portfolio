@@ -4,11 +4,11 @@ div.me-auto.navbar-nav {
     margin: 0 auto;
     padding: 3rem;
     font-weight: 600;
-} 
+}
 
 nav.bg-body-tertiary.navbar.navbar-expand-lg.navbar-light {
     padding: 0;
-    background-color: #F2F2F0!important;
+    background-color: #F2F2F0 !important;
     position: fixed;
     font-size: 1.5rem;
     width: 100%;
@@ -35,12 +35,12 @@ a.nav-link {
 a.nav-link:active,
 a.nav-link:focus,
 a.nav-link:hover {
-    color: #DD868C!important;
+    color: #DD868C !important;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 0!important;
-    padding-left: 0!important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
 
 div.me-auto.navbar-nav {

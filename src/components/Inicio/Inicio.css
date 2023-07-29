@@ -20,16 +20,20 @@
     width: 21ch;
     animation: typing 5s infinite steps(21), blink infinite, alternate .5s infinite step-start alternate;
     animation-direction: alternate;
-    overflow:hidden;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from {
+        width: 0
     }
-    
-    @keyframes typing {
-    from { width: 0}
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
     }
-    
-    @keyframes blink {
-     50% { border-color: transparent}
-    }
+}
 
 section.inicio {
     position: absolute;
@@ -40,7 +44,7 @@ section.inicio {
 
 #inicio {
     height: 100vh;
-    padding-top:25rem;
+    padding-top: 25rem;
 }
 
 
@@ -59,9 +63,17 @@ section.inicio {
 }
 
 @keyframes animacion {
-    0% { top: 0; }
-    50% {  top: 5rem; }
-    100% { top: 0; }
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: 5rem;
+    }
+
+    100% {
+        top: 0;
+    }
 }
 
 
@@ -69,58 +81,58 @@ section.inicio {
 
 /* Responsive */
 
-@media (max-width: 1360px ) { 
+@media (max-width: 1360px) {
     .inicio div img {
         margin-left: 10rem;
-        width: 280px; 
+        width: 280px;
     }
 
     .hola {
         font-size: 9rem;
     }
 
-    .titulo{
+    .titulo {
         font-size: 3rem;
     }
-    
+
     #inicio {
-        padding-top: 30rem;    
+        padding-top: 30rem;
     }
 
 }
 
-@media (max-width: 1200px) { 
+@media (max-width: 1200px) {
 
     .inicio div img {
         width: 280px;
-        margin-left: 3rem; 
+        margin-left: 3rem;
     }
 
     .hola {
         font-size: 8rem;
     }
 
-    .titulo{
+    .titulo {
         font-size: 2.9rem;
     }
 
 }
 
-@media (max-width: 1013px) { 
+@media (max-width: 1013px) {
     .inicio div img {
-        margin-left: 3rem; 
+        margin-left: 3rem;
         width: 250px;
     }
 }
 
 
-@media (max-width: 850px) { 
+@media (max-width: 850px) {
     .inicio div img {
-        margin-left: 1rem; 
+        margin-left: 1rem;
     }
 }
 
-@media (max-width: 700px) { 
+@media (max-width: 700px) {
     .inicio {
         display: block;
     }
@@ -138,25 +150,25 @@ section.inicio {
     }
 
     #inicio {
-        padding-top: 15rem;    
+        padding-top: 15rem;
     }
-    
+
 }
 
-@media (max-width: 420px) { 
+@media (max-width: 420px) {
     .inicio div img {
         width: 180px;
     }
 
 }
 
-@media (max-width: 350px) { 
-     
+@media (max-width: 350px) {
+
     .hola {
         font-size: 5rem;
     }
 
-    .titulo{
+    .titulo {
         font-size: 1.2rem;
     }
 
@@ -166,7 +178,7 @@ section.inicio {
     }
 
     #inicio {
-        padding-top: 10rem;    
+        padding-top: 10rem;
     }
 
 }

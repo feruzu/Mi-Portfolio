@@ -15,9 +15,9 @@ section .title-contacto {
     margin-top: 3rem;
 }
 
-.title-contacto h2{
+.title-contacto h2 {
     -webkit-text-stroke: 3px #dd868c9a;
-    color: transparent; 
+    color: transparent;
     font-size: 5rem;
     font-weight: 600;
 }
@@ -63,7 +63,7 @@ section .title-contacto {
     color: white;
 }
 
-#formulario button:focus{
+#formulario button:focus {
     opacity: 60%;
 }
 
@@ -79,15 +79,15 @@ section .title-contacto {
     border: none;
     border-radius: 10px;
     background: #F2F2F0;
-box-shadow: inset 5px 5px 2px #e1e1df,
-            inset -5px -5px 2px #ffffff;
+    box-shadow: inset 5px 5px 2px #e1e1df,
+        inset -5px -5px 2px #ffffff;
 }
 
 #formulario input:focus,
 #formulario textarea:focus {
     background: #F2F2F0;
-box-shadow:  5px 5px 2px #e1e1df,
-             -5px -5px 2px #ffffff;
+    box-shadow: 5px 5px 2px #e1e1df,
+        -5px -5px 2px #ffffff;
 }
 
 .redes {
@@ -102,22 +102,22 @@ box-shadow:  5px 5px 2px #e1e1df,
     margin-inline: 3rem;
     background: #F2F2F0;
     box-shadow: inset 5px 5px 2px #e1e1df,
-                inset -5px -5px 2px #ffffff;
+        inset -5px -5px 2px #ffffff;
     padding: 2rem;
     border-radius: 10rem;
 }
 
 .redes a:hover {
     background: #F2F2F0;
-    box-shadow:  5px 5px 2px #e1e1df,
-                 -5px -5px 2px #ffffff;
+    box-shadow: 5px 5px 2px #e1e1df,
+        -5px -5px 2px #ffffff;
 }
 
 .redes a:hover img {
     filter: invert(68%) sepia(10%) saturate(1708%) hue-rotate(307deg) brightness(88%) contrast(97%);
 }
 
-.redes a img{
+.redes a img {
     width: 50px;
     height: 50px;
     border-radius: 10rem;
@@ -126,13 +126,13 @@ box-shadow:  5px 5px 2px #e1e1df,
 .redes a:focus {
     background: #F2F2F0;
     box-shadow: inset 5px 5px 2px #e1e1df,
-                inset -5px -5px 2px #ffffff;
+        inset -5px -5px 2px #ffffff;
 }
 
 
 /* Responsive */
 
-@media (max-width: 991px) { 
+@media (max-width: 991px) {
     section.contacto {
         margin-top: 705rem;
     }
@@ -140,32 +140,32 @@ box-shadow:  5px 5px 2px #e1e1df,
     .formulario {
         width: 80%;
     }
-    
+
 }
 
-@media (max-width: 740px) { 
-    
+@media (max-width: 740px) {
+
     section.contacto {
         margin-top: 765rem;
     }
 
 }
 
-@media (max-width: 420px) { 
+@media (max-width: 420px) {
 
     section.contacto {
         top: 135%;
     }
-    
+
 }
 
-@media (max-width: 355px) { 
+@media (max-width: 355px) {
 
     section.contacto {
         top: 100%;
         padding-top: 45rem;
     }
-    
+
 }
 
 /* Alert */
